@@ -1,0 +1,145 @@
+<!--{template common/header}-->
+<style>
+.ins_notes h3 {
+    float: left;
+    font-size: 14px;
+    background: url(//static.huzhan.com/img/tsicon.gif) 0 center no-repeat;
+    padding-left: 20px;
+    font-weight: 700;
+    width: 90%;
+}
+.ly_ins {
+    float: left;
+    width: 570px;
+    padding: 15px;
+    background: #fff;
+}
+.ly_ins .table1 {
+    border: 1px solid #ddd;
+}
+.ly_ins table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.ly_ins td.tyn {
+    text-align: center;
+    border-right: 1px solid #ddd;
+    font-weight: 700;
+    background: #f2f2f2;
+    width: 35px;
+}
+.ly_ins .table1, .ly_ins td, .ly_ins th {
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+}
+.ly_ins .table2 {
+    border: 0;
+}
+.ly_ins td.nm1 {
+    text-align: right;
+    border-bottom: 1px solid #f8f8f8;
+    background: #f8f8f8;
+    width: 15%;
+    color: #333;
+    border-right: 1px solid #f1f1f1;
+}
+.ly_ins .table2 td {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px 8px;
+    color: #666;
+}
+.ly_ins span {
+    float: left;
+    width: 80%;
+}
+.ly_ins .table2 tr:last-child td:last-child {
+    border-color: #fff;
+}
+.ins_notes {
+    float: left;
+    padding: 5px 0;
+    font-size: 13px;
+    width: 100%;
+    border-top: #e1e1e1 solid 1px;
+}
+.ins_notes li {
+    float: left;
+    width: 100%;
+    line-height: 25px;
+}
+li {
+    list-style: none;
+}
+.ins_notes b {
+    padding-right: 4px;
+    color: #666;
+    font-size: 15px;
+}
+
+</style>
+<div class="fwinmask">
+	<h3 style="cursor: move;" class="flb">
+		<em>安装服务详情</em>
+		<span style="float:right;margin-right:10px;">
+		<a href="javascript:;" class="flbc" onclick="hideWindow('xhw6_prompt_pop')" title="Close">Close</a>
+		</span>
+	</h3>
+	<div class="c">
+		<div class="ly_ins">
+		<table class="table1">
+		<tbody><tr>
+			<td class="tyn">商品<br>信息
+			</td>
+			<td>
+				<table class="table2">
+			<tbody><tr>
+				<td class="nm1">商品名称</td>
+				<td><span><a href="#" style="color:#247FBD" target="_blank">$_GET['name']</a></span></td>
+			</tr>
+				<tr>
+				<td class="nm1">安装服务</td>
+			<td class="ly_aztisp">
+				<span style="color: #ff0000">$_GET['install_price']</span>（<span class="ly_azzt" style="color: #999999">需额外支付费用，可选服务</span>）	</td>
+			</tr>
+			</tbody></table>
+			</td>
+		</tr>
+		<tr>
+				<td class="tyn">运行<br>环境
+			</td>
+			<td>
+		<table class="table2">
+		<tbody><tr><td class="nm1">开发语言</td><td>$_GET['lang']</td></tr><tr><td class="nm1">数据库</td><td>$_GET['engine']</td></tr><tr><td class="nm1">伪静态</td><td>$_GET['rewrite']</td></tr></tbody></table></td></tr><tr><td class="tyn">主机<br>环境
+			</td><td><table class="table2"><tbody><tr><td class="nm1">主机类型</td><td>$_GET['host_type']</td></tr><tr><td class="nm1">操作系统</td><td>$_GET['con_type']</td></tr><tr><td class="nm1">web服务</td><td>$_GET['web']</td></tr></tbody></table>
+			</td>
+		</tr>
+		<tr>
+			<td class="tyn">其他<br>说明
+			</td>
+			<td>
+				<table class="table2">
+					<tbody><tr>
+				<td class="nm1">安装方式</td>
+			<td>$_GET['install_type']</td>
+
+			</tr>
+			</tbody></table>
+			</td>
+		</tr>
+		</tbody></table>
+
+
+		  <div class="ins_notes">
+			<li> <h3>注意事项及说明：</h3></li>
+			<li><b>1.</b>【安装服务】需收费时，可在购物车结算中，自行选择是否需要购买该服务；</li>
+			<li><b>2.</b>【主机环境】非该商品仅支持的环境，而是卖家技术能力范围内可提供安装服务的环境；</li>
+			<li><b>3.</b> 对于未购买安装服务的交易，可在交易中追加购买安装服务；</li>
+			<li><b>4.</b> 免费或购买收费安装，而无法提供上述要求环境，即代表自愿放弃安装服务。</li>
+
+			 </div>
+		  </div>
+	</div>
+</div>
+
+
+<!--{template common/footer}-->

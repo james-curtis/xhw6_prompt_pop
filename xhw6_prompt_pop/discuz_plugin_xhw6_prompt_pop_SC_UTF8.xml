@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3,X3.1,X3.2]]></item>
+	<item id="Time"><![CDATA[2016-02-29 11:28]]></item>
+	<item id="From"><![CDATA[讯幻网(www.xhkj5.com)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[弹窗提示]]></item>
+			<item id="identifier"><![CDATA[xhw6_prompt_pop]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[xhw6_prompt_pop/]]></item>
+			<item id="copyright"><![CDATA[讯幻网(www.xhkj5.com)]]></item>
+			<item id="version"><![CDATA[v1.0]]></item>
+			<item id="modules"></item>
+		</item>
+		<item id="version"><![CDATA[X3,X3.1,X3.2]]></item>
+		<item id="var">
+		</item>
+		<item id="language">
+			<item id="templatelang">
+				<item id="xhw6_prompt_pop_ok"><![CDATA[确定]]></item>
+			</item>
+		</item>
+	</item>
+</root>

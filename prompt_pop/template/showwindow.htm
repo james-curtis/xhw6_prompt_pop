@@ -1,0 +1,26 @@
+<!--{template common/header}-->
+<script>
+	function prompt_pop_close() {
+		setcookie('isclose_prompt_pop_time', '1', {$prompt_pop['prompt_pop_time']});
+		display('fwin_prompt_pop');
+	}	
+</script>
+<div class="fwinmask">
+	<h3 style="cursor: move;" class="flb">
+		<em>$prompt_pop['prompt_pop_title']</em>
+		<span style="float:right;margin-right:10px;">
+		<a href="javascript:;" class="flbc" onclick="prompt_pop_close();hideWindow('prompt_pop')" title="Close">Close</a>
+		</span>
+	</h3>
+	<div class="c">
+		<!--{if $prompt_pop['prompt_pop_pic']}-->
+		<p><img src="$prompt_pop['prompt_pop_pic']"/></p>
+		<!--{/if}-->
+		<p>$prompt_pop['prompt_pop_content']</p>
+	</div>
+	<p class="o pns"><button type="submit" class="pn pnc" value="true" onclick="prompt_pop_close();"><strong style="color:#FFF;">{lang prompt_pop:prompt_pop_ok}</strong></button></p>
+
+</div>
+
+
+<!--{template common/footer}-->

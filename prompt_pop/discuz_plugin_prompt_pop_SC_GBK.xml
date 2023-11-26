@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3,X3.1,X3.2]]></item>
+	<item id="Time"><![CDATA[2016-02-29 11:28]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/dz/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[µ¯´°ÌáÊ¾]]></item>
+			<item id="identifier"><![CDATA[prompt_pop]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[prompt_pop/]]></item>
+			<item id="copyright"><![CDATA[QQ:599625574]]></item>
+			<item id="version"><![CDATA[v1.0]]></item>
+			<item id="__modules">
+				<item id="1">
+					<item id="name"><![CDATA[prompt_pop]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X3,X3.1,X3.2]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[µ¯´°±êÌâ]]></item>
+				<item id="description"><![CDATA[µ¯´°µÄ±êÌâ]]></item>
+				<item id="variable"><![CDATA[prompt_pop_title]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[±êÌâ]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[µ¯´°ÄÚÈÝ]]></item>
+				<item id="description"><![CDATA[µ¯´°µÄÄÚÈÝ]]></item>
+				<item id="variable"><![CDATA[prompt_pop_content]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[ÕâÀïÊÇµ¯´°µÄÄÚÈÝ]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[µ¯´°Í¼Æ¬]]></item>
+				<item id="description"><![CDATA[µ¯´°Í¼Æ¬µØÖ·]]></item>
+				<item id="variable"><![CDATA[prompt_pop_pic]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[http://www.discuz.net/static/image/common/logo.png]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[µ¯´°¼ä¸ô]]></item>
+				<item id="description"><![CDATA[£¨µ¥Î»£ºÃë£©
+1Ìì=86400
+1ÖÜ=604800
+1ÔÂ=2678400
+1Äê=31536000]]></item>
+				<item id="variable"><![CDATA[prompt_pop_time]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="templatelang">
+				<item id="prompt_pop_ok"><![CDATA[È·¶¨]]></item>
+			</item>
+		</item>
+	</item>
+</root>
